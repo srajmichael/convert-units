@@ -14,7 +14,7 @@ ConvertUnits.convertTo
 ---
 Example: 
 ```
-ConvertUnits.convertTo( 'vh', '50vw');
+const valueToVh = ConvertUnits.convertTo( 'vh', '50vw');
 ```
 ## Additional Methods
 * ConvertUnits.convertToPx
@@ -26,5 +26,5 @@ ConvertUnits.convertTo( 'vh', '50vw');
 ---
 Example: 
 ```
-ConvertUnits.convertToVh('50vw');
+const valueToVh = ConvertUnits.convertToVh('50vw');
 ```
